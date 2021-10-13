@@ -9,9 +9,9 @@
 //CODE HERE
 let lovesCode = true
 if (lovesCode) {
-  console.log("I love to clode!")
+  //console.log("I love to clode!")
 } else {
-  console.log("Coding has its challenges.")
+  //console.log("Coding has its challenges.")
 }
 
 // For problems 2-3 use the following lines of code:
@@ -31,11 +31,11 @@ let amyName = "Amy"
 let brittanName = "Brittani"
 
 if (amysAge > brittanisAge) {
-  console.log(`${amyName} is older`) 
+  //console.log(`${amyName} is older`) 
 } else if (brittanisAge > amysAge) {
-  console.log(`${brittanName} is older`)
+  //console.log(`${brittanName} is older`)
 } else {
-  console.log("They are the same age")
+  //console.log("They are the same age")
 }
 ////////// PROBLEM 3 //////////
 
@@ -45,9 +45,9 @@ if (amysAge > brittanisAge) {
 
 //CODE HERE
 if (amysBirthYear === brittanisBirthYear) {
-  console.log(`Amy & Brittani were born in the same year`) 
+  //console.log(`Amy & Brittani were born in the same year`) 
 } else {
-  console.log(`Amy & Brittani were not born in the same year`)
+  //console.log(`Amy & Brittani were not born in the same year`)
 }
 
 
@@ -66,23 +66,21 @@ let rain = true
 //CODE HERE
 if (rain) {
   if (temperature >= 80) {
-    console.log("Today looks rainy and warm. Wear a t-shirt and take an umbrella")
+    //console.log("Today looks rainy and warm. Wear a t-shirt and take an umbrella")
   } else if (temperature > 60 && temperature < 80) {
-    console.log("Seems a bit chilly and wet today. Wear a rainjacket.")
+    //console.log("Seems a bit chilly and wet today. Wear a rainjacket.")
   } else if (temperature <= 60) {
-    console.log("Cold and very wet. Bring an umbrella and don't forget that rain jacket!")
+    //console.log("Cold and very wet. Bring an umbrella and don't forget that rain jacket!")
   }
 } else {
   if (temperature >= 80) {
-    console.log("ooo wee, Rick. Let me choose the adventure today. I want to go to the beach.")
+    //console.log("ooo wee, Rick. Let me choose the adventure today. I want to go to the beach.")
   } else if (temperature > 60 && temperature < 80) {
-    console.log("Wawa wee wa. Noice temp. Long pants and short shirt.")
+    //console.log("Wawa wee wa. Noice temp. Long pants and short shirt.")
   } else if (temperature <= 60) {
-    console.log("I don't know abiout this rick it's chilly. Long pants and long shirt, maybe a jacket!")
+    //console.log("I don't know abiout this rick it's chilly. Long pants and long shirt, maybe a jacket!")
   }
 }
-
-
 
 ////////// PROBLEM 5 //////////
 
@@ -115,6 +113,9 @@ for (let i=1;i<11;i++) {
 */
 
 //CODE HERE
+for (let i=10;i>0;i--) {
+  //console.log(i)
+}
 
 let score = 0
 let passingScore = 7
