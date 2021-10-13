@@ -28,7 +28,7 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 let amyName = "Amy"
-let brittanName = "Brittan"
+let brittanName = "Brittani"
 
 if (amysAge > brittanisAge) {
   console.log(`${amyName} is older`) 
@@ -58,10 +58,24 @@ let rain = true
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
-  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
+  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. 
+  If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. 
+  Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
 //CODE HERE
+if (rain) {
+  if (temperature >= 80) {
+    console.log("Today looks rainy and warm. Wear a t-shirt and take an umbrella")
+  } else if (temperature > 60 && temperature < 80) {
+    console.log("Seems a bit chilly and wet today. Wear a rainjacket.")
+  } else if (temperature <= 60) {
+    console.log("Cold and very wet. Bring an umbrella and don't forget that rain jacket!")
+  }
+} else {
+  console.log("ooo wee. It's like sunshine and daises today.")
+}
+
 
 
 ////////// PROBLEM 5 //////////
@@ -71,6 +85,9 @@ let rain = true
 */
 
 //CODE HERE
+for (let i=0;i<10;i++) {
+  //console.log(i, " hello")
+}
 
 
 ////////// PROBLEM 6 //////////
@@ -79,7 +96,10 @@ let rain = true
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+for (let i=1;i<11;i++) {
+  //console.log(i)
+}
+
 
 
 ////////// PROBLEM 7 //////////
