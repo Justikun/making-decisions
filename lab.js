@@ -73,7 +73,13 @@ if (rain) {
     console.log("Cold and very wet. Bring an umbrella and don't forget that rain jacket!")
   }
 } else {
-  console.log("ooo wee. It's like sunshine and daises today.")
+  if (temperature >= 80) {
+    console.log("ooo wee, Rick. Let me choose the adventure today. I want to go to the beach.")
+  } else if (temperature > 60 && temperature < 80) {
+    console.log("Wawa wee wa. Noice temp. Long pants and short shirt.")
+  } else if (temperature <= 60) {
+    console.log("I don't know abiout this rick it's chilly. Long pants and long shirt, maybe a jacket!")
+  }
 }
 
 
